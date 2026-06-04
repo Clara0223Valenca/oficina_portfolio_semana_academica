@@ -22,16 +22,17 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 10%;
+    padding: 0% 10%;
     background-color: var(--cor-terciaria);
-    height: 3.6rem;
+    height: 4.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .cabecalho__menu {
-    gap: 80px;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    gap: 80px;
 }
 
 .cabecalho__menu__link {
@@ -40,8 +41,6 @@ body {
     font-weight: 600;
     color: var(--cor-primaria);
     text-decoration: none;
-    display: flex;
-    justify-content: center;
 }
 
 .apresentacao {
@@ -115,8 +114,9 @@ span:hover{
 }
 
 .imagem {
-    width: 50%;
+    width: 40%;
     border-radius: 8px;
+    min-width: 280px;
 }
 
 .rodape {
