@@ -2,7 +2,7 @@
 
 :root {
     --cor-primaria: #e4e6ee;
-    --cor-secundaria: #2e867f; 
+    --cor-secundaria: #27726c; 
     --cor-terciaria: #064d37;
     --cor-hover: #1969b4;
 
@@ -27,7 +27,6 @@ body {
     height: 4.6rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 
 .cabecalho__menu {
