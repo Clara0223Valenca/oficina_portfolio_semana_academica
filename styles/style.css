@@ -4,7 +4,7 @@
     --cor-primaria: #e4e6ee;
     --cor-secundaria: #27726c; 
     --cor-terciaria: #064d37;
-    --cor-hover: #1969b4;
+    --cor-hover: #259289;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --font-secundaria: 'Montserrat', sans-serif;
@@ -52,7 +52,7 @@ flex-direction: column;
 }
 
 .apresentacao {
-     flex: 1;
+    flex: 1;
     overflow-y: auto; 
     padding: 5% 10%;
     display: flex;
@@ -69,8 +69,22 @@ flex-direction: column;
     gap: 40px;
 }
 
+.apresentacao__conteudo_about {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+/*.apresentacao__conteudo_curriculo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   align-items: space-around;
+    gap: 40px;
+}*/
 .apresentacao__conteudo__titulo {
-    font-size: 2.25rem;
+    font-size: 2.3rem;
     font-family: var(--fonte-primaria);
 }
 
@@ -85,7 +99,7 @@ flex-direction: column;
 
 span:hover{
         color:var(--cor-terciaria);
-    }
+}
 
 .apresentacao__links {
     display: flex;
@@ -119,9 +133,10 @@ span:hover{
 }
 
 .apresentacao__links__navegacao:hover {
-    background-color: var(--cor-hover);
+    background-color: var(--cor-secundaria, 1);
     color: var(--cor-terciaria);
     padding: 3%;
+  
 }
 
 .imagem {
@@ -133,7 +148,7 @@ span:hover{
 
 .apresentacao__conteudo__texto a {
     text-decoration: none;
-    color: var(--cor-terciaria);
+    color: var(--cor-hover);
     padding: 10% 1% 6% 1%;
 }
 
@@ -145,7 +160,7 @@ span:hover{
 }
 
 .certificado:hover {
-    font-size: 1.625rem;
+    font-size: 1rem;
 }
 
 .rodape {
