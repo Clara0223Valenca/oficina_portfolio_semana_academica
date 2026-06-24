@@ -76,6 +76,11 @@ flex-direction: column;
     gap: 80px;
 }
 
+.apresentacao__conteudo_curriculo {
+    display: flex;
+    flex-direction: row;
+}
+
 /*.apresentacao__conteudo_curriculo{
     width: 50%;
     display: flex;
