@@ -144,6 +144,14 @@ span:hover{
     border-radius: 8px;
     min-width: 280px;
 }
+.svg_curriculo {
+
+    width: 40%;
+    border-radius: 8px;
+    min-width: 280px;
+      margin-top: 80px;
+        align-self: flex-start; /* cola no topo */
+}
 
 
 .apresentacao__conteudo__texto a {
