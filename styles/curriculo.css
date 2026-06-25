@@ -134,8 +134,8 @@
 .projeto__card__imagem {
     width: 100%;
     height: 13.75rem;
-    object-fit: cover;
-    display: block;
+    object-fit: cover; /*Como se ajusta ao espaço - corta a imagem para não ficar "esticada" */
+    display: block; /*vira um bloco - ocupará 100% da largura disponível e forçará uma quebra de linha,*/
 }
 
 .projeto__card__corpo {
@@ -166,7 +166,7 @@
 }
 
 .projeto__card__tag {
-    width: fit-content;
+    width: fit-content; /*ajusta a largura de um elemento para que ele fique exatamente do tamanho do seu conteúdo */
     padding: 0.4rem 0.8rem;
     border-radius: 999px;
     background: var(--cor-terciaria);
