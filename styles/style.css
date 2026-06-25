@@ -31,7 +31,7 @@ body {
 }
 
 .cabecalho {
-    padding: 0% 10%;
+    padding: 0.1% 10%;
     background-color: var(--cor-terciaria);
     height: 3.6rem;
     display: flex;
@@ -73,21 +73,9 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 50px;
 }
 
-.apresentacao__conteudo_curriculo {
-    display: flex;
-    flex-direction: row;
-}
-
-/*.apresentacao__conteudo_curriculo{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-   align-items: space-around;
-    gap: 40px;
-}*/
 .apresentacao__conteudo__titulo {
     font-size: 2.3rem;
     font-family: var(--fonte-primaria);
@@ -100,10 +88,6 @@ body {
 .apresentacao__conteudo__texto {
     font-size: 1.5rem;
     font-family: var(--font-secundaria);
-}
-
-span:hover {
-    color: var(--cor-terciaria);
 }
 
 .apresentacao__links {
@@ -146,36 +130,13 @@ span:hover {
 
 .imagem {
     width: 40%;
-    border-radius: 8px;
-    min-width: 280px;
+    min-width: 17.5rem;
 }
-
-.svg_curriculo {
-
-    width: 40%;
-    border-radius: 8px;
-    min-width: 280px;
-    margin-top: 80px;
-    align-self: flex-start;
-    /* cola no topo */
-}
-
 
 .apresentacao__conteudo__texto a {
     text-decoration: none;
     color: var(--cor-hover);
     padding: 10% 1% 6% 1%;
-}
-
-
-.imagem__curriculo {
-    width: 50%;
-    margin: 2%;
-    border-radius: 16px;
-}
-
-.certificado:hover {
-    font-size: 1rem;
 }
 
 .rodape {
@@ -189,36 +150,6 @@ span:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
-}
-
-.cards {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    flex: 1;
-
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 45%;
-
-}
-
-.links {
-    color: #1f6f78;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-
-}
-
-.container {
-    padding: 2px 16px;
 
 }
 
@@ -239,10 +170,5 @@ span:hover {
     .apresentacao__conteudo {
         width: auto;
     }
-
-    .imagem__curriculo {
-        width: 80%;
-    }
-
 
 }
