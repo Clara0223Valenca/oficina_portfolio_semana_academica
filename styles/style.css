@@ -148,6 +148,13 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  text-decoration: none;
+}
+
+.rodape a {
+  text-decoration: none;
+  color: var(--cor-primaria);
+  
 }
 
 @media (max-width: 900px) {
